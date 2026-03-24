@@ -43,6 +43,12 @@ export const Colors = {
   // Heart Rate
   heartRed: '#EF5350',
   heartRedLight: '#FFCDD2',
+
+  // Purple Palette
+  purple: '#7B1FA2',
+  purpleLight: '#AB47BC',
+  purpleLighter: '#CE93D8',
+  purpleDark: '#4A148C',
 };
 
 export const Gradients = {
@@ -52,4 +58,5 @@ export const Gradients = {
   danger: ['#C62828', '#EF5350'],
   success: ['#1B5E20', '#43A047'],
   dark: ['#01143A', '#0D47A1'],
+  purple: ['#4A148C', '#7B1FA2', '#AB47BC'],
 };
