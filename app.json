@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "أيقظني",
+    "slug": "Ayqithni",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#01143A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ayqithni.app"
+    },
+    "android": {
+      "package": "com.ayqithni.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#01143A",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "SEND_SMS",
+        "VIBRATE",
+        "CALL_PHONE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "التطبيق يحتاج للوصول إلى موقعك لإرسال التنبيهات للمتطوعين القريبين."
+        }
+      ]
+    ]
+  }
+}
